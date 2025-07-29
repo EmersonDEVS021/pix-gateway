@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/components/providers.tsx"],"sourcesContent":["'use client'\n\nimport { SessionProvider } from 'next-auth/react'\nimport { ThemeProvider } from 'next-themes'\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <SessionProvider>\n      <ThemeProvider\n        attribute=\"class\"\n        defaultTheme=\"light\"\n        enableSystem\n        disableTransitionOnChange\n      >\n        {children}\n      </ThemeProvider>\n    </SessionProvider>\n  )\n}\n"],"names":[],"mappings":";;;;AAEA;AACA;AAHA;;;;AAKO,SAAS,UAAU,EAAE,QAAQ,EAAiC;IACnE,qBACE,6LAAC,iJAAA,CAAA,kBAAe;kBACd,cAAA,6LAAC,mJAAA,CAAA,gBAAa;YACZ,WAAU;YACV,cAAa;YACb,YAAY;YACZ,yBAAyB;sBAExB;;;;;;;;;;;AAIT;KAbgB","debugId":null}}]
+}
